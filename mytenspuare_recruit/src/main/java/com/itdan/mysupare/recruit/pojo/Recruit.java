@@ -3,6 +3,7 @@ package com.itdan.mysupare.recruit.pojo;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -10,7 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "tb_recruit")
-public class Recruit {
+public class Recruit implements Serializable {
 
     @Id
     private String  id;// 'ID'

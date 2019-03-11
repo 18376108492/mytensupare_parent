@@ -2,7 +2,6 @@ package com.itdan.mytensupare.base.controller;
 
 import com.itdan.mytensupare.base.pojo.Lable;
 import com.itdan.mytensupare.base.service.LableService;
-import entiy.PageResult;
 import entiy.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -13,6 +13,7 @@
         <module>mytenspuare_common</module>
         <module>mytenspuare_base</module>
         <module>mytenspuare_recruit</module>
+        <module>mytenspuare_qa</module>
     </modules>
 
     <parent>

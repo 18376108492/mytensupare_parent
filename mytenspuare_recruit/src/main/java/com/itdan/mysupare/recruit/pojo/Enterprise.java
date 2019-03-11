@@ -4,6 +4,7 @@ package com.itdan.mysupare.recruit.pojo;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * 招聘模块，企业实体类
@@ -11,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_enterprise")
-public class Enterprise {
+public class Enterprise implements Serializable {
     @Id
     private  String id;
     private  String name; //'企业名称'

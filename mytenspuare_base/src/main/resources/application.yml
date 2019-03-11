@@ -5,7 +5,7 @@ spring:
     name: mytensupare_base
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://134.175.8.44:3306/tensquare_base?characterEncoding=utf‐8
+    url: jdbc:mysql://134.175.8.44:3306/tensquare_base?characterEncoding=UTF-8
     username: root
     password: root
   jpa:

@@ -1,8 +1,8 @@
 server:
-  port: 9002
+  port: 9003
 spring:
   application:
-    name: mytenspuare_recruit
+    name: mytenspuare_qa
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://134.175.8.44:3306/tensquare_recruit?characterEncoding=UTF-8

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mytenspuare_base" />
         <module name="mytenspuare_common" />
+        <module name="mytenspuare_qa" />
         <module name="mytenspuare_recruit" />
       </profile>
     </annotationProcessing>

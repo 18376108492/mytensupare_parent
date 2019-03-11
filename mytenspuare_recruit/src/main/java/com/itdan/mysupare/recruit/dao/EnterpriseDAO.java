@@ -6,6 +6,9 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import java.util.List;
 
+/**
+ * 企业业务持久层
+ */
 public interface EnterpriseDAO extends
         JpaRepository<Enterprise,String>,JpaSpecificationExecutor<Enterprise> {
 
