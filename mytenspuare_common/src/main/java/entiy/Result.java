@@ -23,7 +23,7 @@ public class Result {
      * @param code
      * @param message
      */
-    public Result(boolean flag, Integer code, String message) {
+    public  Result(boolean flag, Integer code, String message) {
         this.flag = flag;
         this.code = code;
         this.message = message;
@@ -57,7 +57,7 @@ public class Result {
      * @param message
      * @return
      */
-    public static Result ok(String message){
+    public static  Result ok(String message){
         return new Result(true,StatusCode.OK,message);
     }
 
@@ -66,7 +66,7 @@ public class Result {
      * @param data
      * @return
      */
-    public static Result ok(Object data){
+    public static   Result ok(Object data){
         return new Result(true,StatusCode.OK,"查询成功",data);
     }
 
