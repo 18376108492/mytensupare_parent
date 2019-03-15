@@ -14,6 +14,7 @@
         <module>mytenspuare_base</module>
         <module>mytenspuare_recruit</module>
         <module>mytenspuare_qa</module>
+        <module>mytenspuare_article</module>
     </modules>
 
     <parent>
